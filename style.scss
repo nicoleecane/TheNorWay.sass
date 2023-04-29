@@ -1,7 +1,12 @@
+//color
+
 $color1: white;
 $color2: black;
 $color3: #333;
 
+//font family
+
+$font1: 'Times New Roman', Times, serif;
 
 
 *{
@@ -10,6 +15,13 @@ $color3: #333;
   box-sizing: border-box;
 }
 
+
+body{
+
+  font-family: $font1;
+
+
+}
 .backgroundimgindex{
 
   background-image: url(images/background\ image.jpg);
@@ -80,7 +92,7 @@ i:hover{
 
 .navbar{
   background-color: $color3;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: $font1;
   font-weight: bold;
   padding: 50px;
 
@@ -129,7 +141,7 @@ i:hover{
 h2{
   text-align: center;
   color: $color2;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: $font1;
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 30px;
@@ -149,7 +161,7 @@ h2{
 h3{
   text-align: center;
   color: $color2;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: $font1;
   font-weight: bold;
   font-size: 40px;
   margin-top: 150px;
@@ -160,7 +172,7 @@ h3{
 .otherthings{
   text-align: center;
   color: $color2;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: $font1;
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 30px;
