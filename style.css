@@ -1,230 +1,190 @@
-*{
+@charset "UTF-8";
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.backgroundimgindex{
-
+.backgroundimgindex {
   background-image: url(images/background\ image.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 750px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-
-.tittle1{
+.backgroundimgindex .tittle1 {
   font-size: 7rem;
-    font-weight: bold;
+  font-weight: bold;
 }
-
-.tittle2{
+.backgroundimgindex .tittle2 {
   font-size: 3rem;
-  color: #fff;
+  color: white;
 }
 
-.footerpages{
+.footerpages {
   background-color: #333;
- 
-
 }
-
 .footerpages .socialspages {
   font-size: 50px;
-  
   display: inline-block;
   color: white;
-  text-align:center;
+  text-align: center;
   margin-left: 900px;
-
 }
-.socialspages i{
+.footerpages .socialspages i {
   color: white;
 }
-
-
-.socialspages i:hover{
-  color: rgb(7, 7, 7);
-  cursor: pointer;
-  
-
-}
-
-.copyrightpages{
+.footerpages .copyrightpages {
   font-size: 25px;
   width: 1100px;
   margin-left: 600px;
-  color: #fff;
+  color: white;
   padding: 30px;
-  
 }
 
-.navbar{
-  background-color: rgb(99, 96, 96);
-  font-family: 'Times New Roman', Times, serif;
+i:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: #333;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   padding: 50px;
-  
-  
 }
-.navbar-brand{
+.navbar .navbar-brand {
   font-size: 40px;
-
 }
-
-
-.nav-link{
+.navbar .nav-link {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   font-size: 15px;
-  color: rgb(250, 246, 246) !important;
-  
+  color: white !important;
 }
-
-.nav-link:hover{
+.navbar .nav-link:hover {
   text-decoration: underline;
-
 }
-.navbar-toggler i{
+.navbar .navbar-toggler i {
   font-size: 50px;
-  color:white!important;
-  
+  color: white !important;
 }
-
-.navbar-toggler{
+.navbar .navbar-toggler {
   border: none;
 }
 
-
-.jumbotron{
+.jumbotron {
   background-image: url(images/norway-trolltunga.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
-  
 }
 
-h2{
+h2 {
   text-align: center;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 30px;
   padding: 50px;
 }
 
-.flexcontainer{
+.flexcontainer {
   display: flex;
-        
-        text-align: center;
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: justify;
-        padding: 50px 50px 20px 50px;
-}
-h3{
   text-align: center;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  padding: 50px 50px 20px 50px;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 40px;
   margin-top: 150px;
-  
-  
 }
 
-.otherthings{
+.otherthings {
   text-align: center;
   color: black;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 50px;
   margin-bottom: 30px;
   margin-top: 300px;
-
 }
-.jumbotron2{
+
+.jumbotron2 {
   background-image: url(images/trondhaim.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
-  
 }
 
-.jumbotrontips{
+.jumbotrontips {
   background-image: url(images/flåm.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-.jumbotrontrans{
+.jumbotrontrans {
   background-image: url(images/trikk.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
-  
-
 }
 
-
-
-.backgroundimgcontact{
+.backgroundimgcontact {
   background-image: url(images/light6.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1500px; 
+  height: 1500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
-
+  color: white;
 }
-.personalized{
+.backgroundimgcontact .personalized {
   font-size: 50px;
   text-align: center;
   margin-top: 150px;
-  
   margin-bottom: 100px;
 }
-
-.contactus{
+.backgroundimgcontact .contactus {
   font-size: 30px;
   color: white;
   text-align: center;
-  margin-right: 400px; 
+  margin-right: 400px;
   margin-top: 10px;
-  margin-left: 500px
-  ;
+  margin-left: 500px;
 }
-
-form{
+.backgroundimgcontact form {
   width: 90%;
   max-width: 600px;
   align-items: center;
   margin-right: 500px;
   padding: 50px;
-
-margin-left: 659px;
+  margin-left: 659px;
 }
-.input-group{
+.backgroundimgcontact form .input-group {
   margin-bottom: 30px;
   position: relative;
 }
-
-input, textarea{
-
+.backgroundimgcontact form input, .backgroundimgcontact form textarea {
   width: 100%;
   padding: 10px;
   outline: 0;
@@ -232,10 +192,8 @@ input, textarea{
   color: white;
   background: transparent;
   font-size: 15px;
-
 }
-
-label{
+.backgroundimgcontact form label {
   height: 100%;
   position: absolute;
   left: 0;
@@ -245,7 +203,7 @@ label{
   cursor: text;
   transition: 0.2s;
 }
-button{
+.backgroundimgcontact form button {
   padding: 10px 0;
   color: white;
   outline: none;
@@ -254,110 +212,69 @@ button{
   width: 100%;
   cursor: pointer;
 }
-
-input:focus~label,
-input:valid~label,
-textarea:focus~label,
-textarea:valid~label{
+.backgroundimgcontact form input:focus ~ label,
+.backgroundimgcontact form input:valid ~ label,
+.backgroundimgcontact form textarea:focus ~ label,
+.backgroundimgcontact form textarea:valid ~ label {
   top: -35px;
   font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
 /* aplico medias querys para dispositivos celulares */
-
-
-@media (max-width:480px){
-  .tittle1{
-      font-size: 3.5rem;
-  }
-  .tittle2{
-      font-size: 2rem;
-  }
-  .personalized{
+@media (max-width: 480px) {
+  .tittle1 {
     font-size: 3.5rem;
-    
   }
-  .contactus{
+  .tittle2 {
     font-size: 2rem;
   }
-
- .imput-group{
-  font-size: 2rem
-  ;
- }
+  .personalized {
+    font-size: 3.5rem;
+  }
+  .contactus {
+    font-size: 2rem;
+  }
+  .imput-group {
+    font-size: 2rem;
+  }
 }
-
-@media only screen and (min-width:471px) and (max-width:700px){
-
-  .navbar-brand{
+@media only screen and (min-width: 471px) and (max-width: 700px) {
+  .navbar-brand {
     font-size: 45px;
-  
   }
-
-  .navbar-toggler i{
-    font-size: 35px;
-    
-    
-  }
-  h2{
+  .navbar-toggler i {
     font-size: 35px;
   }
-
-  .flexcontainer{
-  font-size: 18px;
+  h2 {
+    font-size: 35px;
   }
-
-  h3{
+  .flexcontainer {
+    font-size: 18px;
+  }
+  h3 {
     font-size: 28px;
   }
-  .otherthings{
+  .otherthings {
     font-size: 35px;
-  } 
-
-  
-
-
-
+  }
 }
-
-@media only screen and (min-width:701px) and (max-width:1000px){
-
-  .navbar-brand{
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  .navbar-brand {
     font-size: 65px;
-  
   }
-  
-    
-    
-  }
-  .navbar-toggler i{
+  .navbar-toggler i {
     font-size: 50px;
-    
-    
   }
-  h2{
+  h2 {
     font-size: 55px;
   }
-
-  .flexcontainer{
-  font-size: 18px;
+  .flexcontainer {
+    font-size: 18px;
   }
-
-  h3{
+  h3 {
     font-size: 28px;
   }
-  .otherthings{
+  .otherthings {
     font-size: 35px;
-  } 
-
-
-}
-
+  }
+}/*# sourceMappingURL=style.css.map */
