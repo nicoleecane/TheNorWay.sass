@@ -180,7 +180,7 @@ h3 {
   text-align: center;
   margin-right: 400px;
   margin-top: 10px;
-  margin-left: 500px;
+  margin-left: 350px;
 }
 .backgroundimgcontact form {
   width: 90%;
@@ -190,7 +190,6 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid red;
 }
 .backgroundimgcontact form .input-group {
   margin-bottom: 30px;
@@ -249,6 +248,9 @@ h3 {
   .imput-group {
     font-size: 2rem;
   }
+  .copyrightpages {
+    font-size: 15px;
+  }
 }
 @media only screen and (min-width: 471px) and (max-width: 700px) {
   .navbar-brand {
@@ -269,6 +271,9 @@ h3 {
   .otherthings {
     font-size: 35px;
   }
+  .copyrightpages {
+    font-size: 17px;
+  }
 }
 @media only screen and (min-width: 701px) and (max-width: 1000px) {
   .navbar-brand {
@@ -288,5 +293,8 @@ h3 {
   }
   .otherthings {
     font-size: 35px;
+  }
+  .copyrightpages {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
