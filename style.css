@@ -30,30 +30,36 @@ body {
   color: white;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .footerpages {
   background-color: #333;
 }
 .footerpages .socialspages {
   font-size: 50px;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   color: white;
-  text-align: center;
-  margin-left: 900px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  letter-spacing: 15px;
 }
-.footerpages .socialspages i {
+.footerpages i {
   color: white;
-}
-.footerpages .copyrightpages {
-  font-size: 25px;
-  width: 1100px;
-  margin-left: 600px;
-  color: white;
-  padding: 30px;
 }
 
-i:hover {
-  color: black;
-  cursor: pointer;
+.copyrightpages {
+  font-size: 25px;
+  width: 1100px;
+  text-align: center;
+  color: white;
+  padding: 30px;
 }
 
 .navbar {
@@ -180,9 +186,11 @@ h3 {
   width: 90%;
   max-width: 600px;
   align-items: center;
-  margin-right: 500px;
   padding: 50px;
-  margin-left: 659px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid red;
 }
 .backgroundimgcontact form .input-group {
   margin-bottom: 30px;
