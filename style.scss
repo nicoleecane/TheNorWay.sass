@@ -13,6 +13,7 @@ $font1: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 
@@ -59,6 +60,7 @@ footer{
 
   .footerpages{
    background-color: $color3;
+   
   
 
 
@@ -313,10 +315,10 @@ h3{
 
 @media (max-width:480px){
   .tittle1{
-      font-size: 3.5rem;
+      font-size: 1rem;
   }
   .tittle2{
-      font-size: 2rem;
+      font-size: 1rem;
   }
   .personalized{
     font-size: 3.5rem;

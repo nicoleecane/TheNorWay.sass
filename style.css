@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -233,10 +234,10 @@ h3 {
 /* aplico medias querys para dispositivos celulares */
 @media (max-width: 480px) {
   .tittle1 {
-    font-size: 3.5rem;
+    font-size: 1rem;
   }
   .tittle2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .personalized {
     font-size: 3.5rem;
