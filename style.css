@@ -23,7 +23,7 @@ body {
   color: white;
 }
 .backgroundimgindex .tittle1 {
-  font-size: 7rem;
+  font-size: 6.2rem;
   font-weight: bold;
 }
 .backgroundimgindex .tittle2 {
@@ -239,7 +239,7 @@ h3 {
 /* aplico medias querys para dispositivos celulares */
 @media (max-width: 480px) {
   .tittle1 {
-    font-size: 1rem;
+    font-size: 20px;
   }
   .tittle2 {
     font-size: 1rem;
