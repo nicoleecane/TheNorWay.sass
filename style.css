@@ -7,6 +7,7 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
+  background-color: rgb(221, 243, 219);
 }
 
 .backgroundimgindex {
@@ -199,9 +200,10 @@ h3 {
   padding: 10px;
   outline: 0;
   border: 3px solid white;
-  color: white;
-  background: transparent;
-  font-size: 15px;
+  color: black;
+  background: rgb(110, 245, 151);
+  opacity: 0.7;
+  font-size: 15px bold;
 }
 .backgroundimgcontact form label {
   height: 100%;
@@ -209,18 +211,22 @@ h3 {
   left: 0;
   top: 0;
   padding: 10px;
-  color: white;
+  color: black;
   cursor: text;
   transition: 0.2s;
 }
 .backgroundimgcontact form button {
+  box-shadow: 0 0 5px cyan;
   padding: 10px 0;
-  color: white;
+  color: black;
   outline: none;
-  background: transparent;
+  background: rgb(110, 245, 151);
   border: 3px solid white;
   width: 100%;
   cursor: pointer;
+}
+.backgroundimgcontact form button:hover {
+  box-shadow: 0 0 5PX cyan, 0 0 25px cyan, 0 0 50px cyan;
 }
 .backgroundimgcontact form input:focus ~ label,
 .backgroundimgcontact form input:valid ~ label,

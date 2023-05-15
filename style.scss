@@ -3,6 +3,9 @@
 $color1: white;
 $color2: black;
 $color3: #333;
+$color4:rgb(221, 243, 219);
+$color5: cyan;
+$color6: rgb(110, 245, 151);
 
 //font family
 
@@ -20,6 +23,8 @@ $font1: 'Times New Roman', Times, serif;
 body{
 
   font-family: $font1;
+  background-color: $color4;
+  
 
 
 }
@@ -264,9 +269,10 @@ h3{
       padding: 10px;
       outline: 0;
       border: 3px solid $color1;
-      color: $color1;
-      background: transparent;
-      font-size: 15px;
+      color: $color2;
+      background: rgb(110, 245, 151);
+      opacity: 0.7;
+      font-size: 15px bold;
     
     }
     
@@ -276,20 +282,26 @@ h3{
       left: 0;
       top: 0;
       padding: 10px;
-      color: $color1;
+      color: $color2;
       cursor: text;
       transition: 0.2s;
     }
     button{
+      box-shadow: 0 0 5px $color5;
+      
       padding: 10px 0;
-      color: $color1;
+      color: $color2;
       outline: none;
-      background: transparent;
+      background: $color6 ;
       border: 3px solid $color1;
       width: 100%;
       cursor: pointer;
     }
-    
+     button:hover{
+      box-shadow:0 0 5PX $color5,
+      0 0 25px $color5, 0 0 50px $color5
+      ;
+     }
     input:focus~label,
     input:valid~label,
     textarea:focus~label,
